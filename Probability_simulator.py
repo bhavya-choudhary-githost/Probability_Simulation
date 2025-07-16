@@ -8,11 +8,12 @@ next5star_guarantee = False
 
 def five_star():
     global pity, banner_5stars, standard_5stars, next5star_guarantee
-    if random.random() < 0.5:
+
+    if next5star_guarantee == True:
         banner_5stars += 1
         next5star_guarantee = False
 
-    elif next5star_guarantee == True:
+    elif random.random() < 0.5:
         banner_5stars += 1
         next5star_guarantee = False
 
