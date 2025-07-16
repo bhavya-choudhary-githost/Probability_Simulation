@@ -1,6 +1,7 @@
 import random
+print()
 #initial statistics
-pulls = int(input("Enter number of pulls to stimulate:" ))
+pulls = int(input("Enter number of pulls to stimulate: " ))
 pity = 0
 banner_5stars = 0
 standard_5stars = 0
@@ -33,4 +34,7 @@ for pull in range(pulls):
     else:
         pity += 1
 
+print()
 print(f'banner 5 stars: {banner_5stars}')
+print()
+print(f'standard 5 stars: {standard_5stars}')
