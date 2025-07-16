@@ -1,7 +1,7 @@
 import random
 print()
 #initial statistics
-pulls = int(input("Enter number of pulls to stimulate: " ))
+pulls = int(input("Enter number of pulls to simulate: "))
 pity = 0
 banner_5stars = 0
 standard_5stars = 0
