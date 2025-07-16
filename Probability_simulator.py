@@ -4,7 +4,7 @@ def pull_simulation(pulls):
     pity = 0
     banner_5stars = 0
     standard_5stars = 0
-    chance_star = 0
+    chance_5star = 0
     next5star_guarantee = False
     
     for pull in range(pulls):
