@@ -25,11 +25,12 @@ def five_star():
 for pull in range(pulls):
     if pity > 73:
         chance = (pity-73)*0.06 + 0.006
-    if pity <= 73:
-        chance = 0.06
+    else:
+        chance = 0.006
 
     if random.random() <= chance:
         five_star()
+    else:
+        pity += 1
 
-print(banner_5stars)
-        
+print(f'banner 5 stars: {banner_5stars}')
