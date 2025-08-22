@@ -29,4 +29,4 @@ The script replicates Genshin’s actual pity system:
 2. Run the script in a terminal or Python IDE.
 
 ```bash
-python genshin_simulator.py
+python Probability_simulator.py
